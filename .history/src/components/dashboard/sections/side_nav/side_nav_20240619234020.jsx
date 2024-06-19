@@ -46,7 +46,7 @@ function SideNav() {
                 <div className="flex gap-4">
                   {/* item icon */}
                   <div
-                    className={` text-2xl lg:text-xl ${
+                    className={` text-xl ${
                       isSelected ? "text-accent" : "text-secondary"
                     }  `}
                   >
