@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer base {
+
+
+    :root {
+        --color-primary: #f3c614;
+        --color-secondary: #353535;
+        --color-tertiary: #333;
+        --color-quaternary: #111;
+    }
+
+
+    body {
+        background-color: var(--color-tertiary);
+        color: var(--color-secondary);
+    }
+
+}

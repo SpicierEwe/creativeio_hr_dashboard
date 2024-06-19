@@ -1,0 +1,7 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect id="Shape" width="32" height="32" fill="none"/>
+  <rect id="Shape-2" data-name="Shape" width="13.333" height="13.333" transform="translate(16 2.667)" fill="#a0a0a0" stroke="#202020" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+  <path id="Path" d="M13.333,0,0,13.333,13.333,26.667,26.667,13.333V0Z" transform="translate(2.667 2.667)" fill="none" stroke="#202020" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+  <rect id="Shape-3" data-name="Shape" width="13.333" height="13.333" transform="translate(2.667 16)" fill="#202020" stroke="#202020" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+  <path id="Path-2" data-name="Path" d="M0,13.333,13.333,0" transform="translate(16 2.667)" fill="none" stroke="#202020" stroke-miterlimit="10" stroke-width="1"/>
+</svg>

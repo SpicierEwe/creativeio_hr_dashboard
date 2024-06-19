@@ -1,0 +1,34 @@
+<svg id="Illustration" xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <rect id="Base" width="72" height="72" fill="rgba(255,255,255,0)" opacity="0"/>
+  <g id="undraw_reminder_pa79_1_" data-name="undraw_reminder_pa79 (1)" transform="translate(0 7)">
+    <circle id="Oval" cx="1.127" cy="1.127" r="1.127" transform="translate(2.409 55.049)" fill="#f9a826"/>
+    <rect id="Rectangle" width="2.965" height="2.965" transform="translate(19.005 54.28)" fill="#ff6584"/>
+    <circle id="Oval-2" data-name="Oval" cx="1.127" cy="1.127" r="1.127" transform="translate(17.895 55.132)" fill="#f9a826"/>
+    <path id="Path" d="M6.623,0,0,10.339,14.229,4.872,6.623,0Z" transform="translate(12.878)" fill="#f1f1f1"/>
+    <path id="Path-2" data-name="Path" d="M27.659,0,12.491,5.827,0,25.325,40.923,51.541,60.474,21.022,27.659,0Z" transform="translate(0 5.594)" fill="#f1f1f1"/>
+    <path id="Path-3" data-name="Path" d="M10.363,1.929l.057.059L9.6,0,1.782,7.692,0,11.986,10.363,1.929Z" transform="translate(41.857 14.566)" fill="#f9a826"/>
+    <path id="Path-4" data-name="Path" d="M7.617,2.334,6.649,0,1.594,5.877,0,9.717,7.56,2.275l.058.059Z" transform="translate(43.801 12.151)" fill="#f9a826"/>
+    <path id="Path-5" data-name="Path" d="M4.755,3.014l.062.054L3.545,0,0,8.542,4.755,3.014Z" transform="translate(45.597 8.998)" fill="#f9a826"/>
+    <path id="Path-6" data-name="Path" d="M30.047,16.5,23.2,0,12.587,10.3l-2.572,6.2L0,40.633H40.063L30.047,16.5Z" transform="translate(29.11 16.636)" fill="#f9a826"/>
+    <path id="Path-7" data-name="Path" d="M0,.05H70.884" transform="translate(0.643 57.227)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path-8" data-name="Path" d="M6.955,0,0,9.1V12.74L9.078,0Z" transform="translate(46.382 42.03)" fill="#3f3d56"/>
+    <path id="Path-9" data-name="Path" d="M3.967,0,0,4.787V8.824L6.748,0Z" transform="translate(46.382 42.03)" fill="#3f3d56"/>
+    <path id="Path-10" data-name="Path" d="M3.753,0H0V4.529L3.753,0Z" transform="translate(46.382 42.03)" fill="#3f3d56"/>
+    <path id="Path-11" data-name="Path" d="M9.281,0,0,13.024v2.215H23.064V0Z" transform="translate(46.382 42.03)" fill="#3f3d56"/>
+    <circle id="Oval-3" data-name="Oval" cx="6.507" cy="6.507" r="6.507" transform="translate(58.985 26.873)" fill="#2f2e41"/>
+    <rect id="Rectangle-2" data-name="Rectangle" width="1.977" height="3.542" transform="translate(68.458 42.03) rotate(180)" fill="#2f2e41"/>
+    <rect id="Rectangle-3" data-name="Rectangle" width="1.977" height="3.542" transform="translate(64.504 42.03) rotate(180)" fill="#2f2e41"/>
+    <ellipse id="Oval-4" data-name="Oval" cx="1.647" cy="0.618" rx="1.647" ry="0.618" transform="translate(65.163 41.453)" fill="#2f2e41"/>
+    <ellipse id="Oval-5" data-name="Oval" cx="1.647" cy="0.618" rx="1.647" ry="0.618" transform="translate(61.209 41.371)" fill="#2f2e41"/>
+    <circle id="Oval-6" data-name="Oval" cx="2.224" cy="2.224" r="2.224" transform="translate(63.104 29.509)" fill="#fff"/>
+    <circle id="Oval-7" data-name="Oval" cx="0.741" cy="0.741" r="0.741" transform="translate(64.586 30.992)" fill="#3f3d56"/>
+    <path id="Path-12" data-name="Path" d="M9.5,5.44A4.609,4.609,0,0,0,5.749.129,4.609,4.609,0,0,0,.094,3.339c-.525,2.353,1.2,3.221,3.793,3.8S8.975,7.793,9.5,5.44Z" transform="translate(62.305 21.889)" fill="#f9a826"/>
+    <path id="Path-13" data-name="Path" d="M.05,0V24.794" transform="translate(14.627 32.474)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="2"/>
+    <rect id="Rectangle-4" data-name="Rectangle" width="28.831" height="19.111" transform="translate(0.253 22.919)" fill="#f9a826"/>
+    <rect id="Rectangle-5" data-name="Rectangle" width="22.241" height="0.659" transform="translate(3.548 27.697)" fill="#f1f1f1"/>
+    <rect id="Rectangle-6" data-name="Rectangle" width="22.241" height="0.659" transform="translate(3.548 29.921)" fill="#f1f1f1"/>
+    <rect id="Rectangle-7" data-name="Rectangle" width="22.241" height="0.659" transform="translate(3.548 32.145)" fill="#f1f1f1"/>
+    <rect id="Rectangle-8" data-name="Rectangle" width="5.766" height="0.659" transform="translate(20.023 36.593)" fill="#f1f1f1"/>
+    <ellipse id="Oval-8" data-name="Oval" cx="2.471" cy="1.318" rx="2.471" ry="1.318" transform="translate(12.197 21.601)" fill="#3f3d56"/>
+  </g>
+</svg>

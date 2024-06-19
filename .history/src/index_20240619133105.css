@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-primary: #ffffff;
+        --color-secondary: #f4f7f7;
+        --accent: #009580;
+        --accent-light: #dfeeed;
+
+        --font-primary: #202020;
+        --font-secondary: #84818A;
+        --font-tertiary: #47464A;
+        /* Corrected the double # */
+    }
+
+    body {
+        background-color: var(--color-secondary);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        color: var(--font-primary);
+    }
+
+    h1 {
+        font-size: 2.25rem;
+    }
+
+
+
+    p {
+        color: var(--font-secondary);
+    }
+}
