@@ -60,7 +60,7 @@ const RecommendedCourses = () => {
       </div>
 
       {/* cards */}
-      <div className="mt-10 w-full grid gid-cols-1  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 flex-wrap gap-10">
+      <div className="mt-10 w-full grid gid-cols-2  md:flex-row flex-wrap gap-10">
         {coursesData.map((course) => (
           <div
             key={course.id}
