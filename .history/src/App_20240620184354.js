@@ -2,12 +2,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import DashBoard from "./components/dashboard/dashboard";
-import SideNav from "./components/side_nav/side_nav";
+import SideNav from "./components/dashboard/sections/side_nav/side_nav";
 import Courses from "./components/courses/courses";
 import Schedule from "./components/schedule/schedule";
 import Discussion from "./components/discussion/discussion";
 import Settings from "./components/settings/settings";
-import Leaderboard from "./components/leaderboard/leaderboard";
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
               <Route path="/courses" element={<Courses />} />
               <Route path="/schedule" element={<Schedule />} />
               <Route path="/discussion" element={<Discussion />} />
-              <Route path="/leaderboard" element={<Leaderboard />} />
               <Route path="/settings" element={<Settings />} />
             </Routes>
           </div>

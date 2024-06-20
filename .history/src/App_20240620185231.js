@@ -7,6 +7,7 @@ import Courses from "./components/courses/courses";
 import Schedule from "./components/schedule/schedule";
 import Discussion from "./components/discussion/discussion";
 import Settings from "./components/settings/settings";
+import { MdLeaderboard } from "react-icons/md";
 import Leaderboard from "./components/leaderboard/leaderboard";
 
 function App() {

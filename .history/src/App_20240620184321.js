@@ -2,12 +2,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import DashBoard from "./components/dashboard/dashboard";
-import SideNav from "./components/side_nav/side_nav";
+import SideNav from "./components/dashboard/sections/side_nav/side_nav";
 import Courses from "./components/courses/courses";
 import Schedule from "./components/schedule/schedule";
-import Discussion from "./components/discussion/discussion";
-import Settings from "./components/settings/settings";
-import Leaderboard from "./components/leaderboard/leaderboard";
 
 function App() {
   return (
@@ -20,11 +17,10 @@ function App() {
           <div className="p-5 w-full pt-10 lg:pt-20 ml-14  lg:pr-10 lg:ml-[9%] xl:ml-14">
             <Routes>
               <Route path="/" element={<DashBoard />} />
-              <Route path="/courses" element={<Courses />} />
-              <Route path="/schedule" element={<Schedule />} />
-              <Route path="/discussion" element={<Discussion />} />
-              <Route path="/leaderboard" element={<Leaderboard />} />
-              <Route path="/settings" element={<Settings />} />
+              <Route path="/" element={<Courses />} />
+              <Route path="/" element={<Schedule />} />
+              <Route path="/" element={< />} />
+              <Route path="/" element={<DashBoard />} />
             </Routes>
           </div>
         </div>
