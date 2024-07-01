@@ -89,7 +89,7 @@ export default function Section2() {
             </div>
 
             {/* c-2  */}
-            <div className="w-full xl:w-[50%] flex flex-col gap-5 justify-around items-center  py-5 xl:border-l-2 border-t-2 border-t-[#273c6a] pt-10 xl:border-t-0 xl:border-l-[#273c6a]">
+            <div className="w-full xl:w-[50%] flex flex-col gap-5 justify-around items-center  py-5 xl:border-l-2 border-t-2 border-t-[#273c6a] pt-5 xl:border-l-[#273c6a]">
               <button className="flex   items-center gap-3 w-fit border border-[#0bb885] p-1 px-3 rounded-lg">
                 <p>2020</p>
                 <MdOutlineKeyboardArrowDown />

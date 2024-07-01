@@ -89,7 +89,7 @@ export default function Section2() {
             </div>
 
             {/* c-2  */}
-            <div className="w-full xl:w-[50%] flex flex-col gap-5 justify-around items-center  py-5 xl:border-l-2 border-t-2 border-t-[#273c6a] pt-10 xl:border-t-0 xl:border-l-[#273c6a]">
+            <div className="w-full xl:w-[50%] flex flex-col gap-5 justify-around items-center  py-5 border-l-2 border-l-[#273c6a]">
               <button className="flex   items-center gap-3 w-fit border border-[#0bb885] p-1 px-3 rounded-lg">
                 <p>2020</p>
                 <MdOutlineKeyboardArrowDown />
@@ -166,7 +166,7 @@ const ActivityOverview = () => {
         {activities.map((activity, index) => (
           <div
             key={index}
-            className="border-l-2 relative pl-5 border-l-[#4c5a8b] pb-20 flex items-start "
+            className="border-l-2 relative pl-5 border-l-red-200 pb-20 flex items-start "
           >
             <div className="w-5 h-5 absolute -left-[.7rem] border-[3px] -top-1.5  bg-[#1c243f] border-[#ff814a]  rounded-full mt-1.5 mr-3"></div>
             <div className="">

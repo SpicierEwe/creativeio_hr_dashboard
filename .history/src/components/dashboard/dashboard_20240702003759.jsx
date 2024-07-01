@@ -1,5 +1,6 @@
 import Section1 from "./sections/section_1/section_1";
 import Section2 from "./sections/sections_2/section_2";
+import Section3 from "./sections/section_3/section_3";
 
 function DashBoard() {
   return (
