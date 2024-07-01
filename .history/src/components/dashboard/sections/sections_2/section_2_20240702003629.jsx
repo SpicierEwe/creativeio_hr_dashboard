@@ -166,7 +166,7 @@ const ActivityOverview = () => {
         {activities.map((activity, index) => (
           <div
             key={index}
-            className="xl:border-l-2 relative pl-5 xl:border-l-[#4c5a8b] pb-20 flex items-start "
+            className="border-l-2 relative pl-5 xl:border-l-[#4c5a8b] pb-20 flex items-start "
           >
             <div className="w-5 h-5 absolute -left-[.7rem] border-[3px] -top-1.5  bg-[#1c243f] border-[#ff814a]  rounded-full mt-1.5 mr-3"></div>
             <div className="">
