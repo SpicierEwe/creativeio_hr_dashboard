@@ -128,9 +128,7 @@ function SideNav() {
                         </div>
 
                         {/* label */}
-                        <div
-                          className={`hidden lg:block text-sm text-[#6c747d]`}
-                        >
+                        <div className={`hidden lg:block text-sm`}>
                           {item.label}
                         </div>
                       </div>
