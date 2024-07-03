@@ -153,6 +153,12 @@ const ActivityOverview = () => {
       target: "Newsletter #1",
       time: "18 JUL 19:10 PM",
     },
+    {
+      user: "Nick Mark",
+      action: "suspended",
+      target: "The Post Name",
+      time: "11 JUL 9:10 PM",
+    },
   ];
   return (
     <div className="p-6 rounded-lg">

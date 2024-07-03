@@ -10,7 +10,7 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 export default function Section2() {
   return (
-    <div className="flex flex-col 2xl:flex-row w-full  gap-4 mt-7 items-start ">
+    <div className="flex flex-col 2xl:flex-row w-full  gap-4 mt-7  ">
       {/* col 1 */}
       <div className="flex flex-col gap-5">
         <div className="flex flex-col 2xl:flex-row gap-4  ">
@@ -152,6 +152,12 @@ const ActivityOverview = () => {
       action: "have subscribed to",
       target: "Newsletter #1",
       time: "18 JUL 19:10 PM",
+    },
+    {
+      user: "Nick Mark",
+      action: "suspended",
+      target: "The Post Name",
+      time: "11 JUL 9:10 PM",
     },
   ];
   return (
