@@ -103,7 +103,7 @@ function Section1() {
                   {item.title}
                 </div>
                 <div className="w-full flex gap-3 mt-1   items-center justify-between">
-                  <p className="text-xs uppercase text-white">{item.count}</p>
+                  <p className="text-xs uppercase">{item.count}</p>
                 </div>
               </div>
             </div>

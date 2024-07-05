@@ -98,12 +98,12 @@ function Section1() {
               </div>
 
               {/* c2 */}
-              <div className="text-center whitespace-nowrap text-white">
+              <div className="text-center whitespace-nowrap">
                 <div className=" mt-2 text-3xl font-semibold  whitespace-nowrap">
                   {item.title}
                 </div>
-                <div className="w-full flex gap-3 mt-1   items-center justify-between">
-                  <p className="text-xs uppercase text-white">{item.count}</p>
+                <div className="w-full flex gap-3 mt-1  items-center justify-between">
+                  <p className="text-xs uppercase">{item.count}</p>
                 </div>
               </div>
             </div>

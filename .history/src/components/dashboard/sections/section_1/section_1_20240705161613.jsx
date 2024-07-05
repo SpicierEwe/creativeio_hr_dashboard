@@ -59,7 +59,7 @@ function Section1() {
   const boxShadow = `0 4px 10px -3px ${boxShadowColor}`;
   console.log(boxShadow);
 
-  const [selectedIndex, setSelectedIndex] = useState(2);
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
     <div className=" pl-[5rem] lg:pl-[15rem]">
@@ -81,7 +81,7 @@ function Section1() {
             <div
               key={index}
               onClick={() => setSelectedIndex(index)}
-              className={`  p-5 bg-primary py-10 flex flex-row items-center gap-3 text-white cursor-pointer ${
+              className={`  p-5 bg-primary flex flex-row items-center gap-3 text-white cursor-pointer ${
                 selectedIndex === index ? `shadow-md scale-[1.2]` : ""
               } transition-all duration-200 ease-in-out bg-cover bg-center `}
               style={{
@@ -98,12 +98,12 @@ function Section1() {
               </div>
 
               {/* c2 */}
-              <div className="text-center whitespace-nowrap text-white">
+              <div className="text-center whitespace-nowrap">
                 <div className=" mt-2 text-3xl font-semibold  whitespace-nowrap">
                   {item.title}
                 </div>
-                <div className="w-full flex gap-3 mt-1   items-center justify-between">
-                  <p className="text-xs uppercase text-white">{item.count}</p>
+                <div className="w-full flex gap-3 mt-1  items-center justify-between">
+                  <p className="text-xs uppercase">{item.count}</p>
                 </div>
               </div>
             </div>

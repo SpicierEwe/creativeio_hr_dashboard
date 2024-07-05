@@ -8,7 +8,7 @@ function DashBoard() {
         <Section1 />
       </div>
 
-      <div className="pl-[5rem] lg:pl-[15rem] overflow-hidden mt-20">
+      <div className="pl-[5rem] lg:pl-[15rem] overflow-hidden">
         <Section2 />
       </div>
     </div>

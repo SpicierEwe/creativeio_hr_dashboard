@@ -10,24 +10,28 @@ import { RiArrowUpSFill } from "react-icons/ri";
 function Section1() {
   const data = [
     {
+      icon: <PiCircleNotchDuotone size={45} />,
       title: "2000+",
       count: "client success",
 
       drop: false,
     },
     {
+      icon: <BsFillTrophyFill />,
       title: "26 Yrs",
       count: "consultant experience",
 
       drop: false,
     },
     {
+      icon: <FaCalendar />,
       title: "120+",
       count: "countries served",
 
       drop: false,
     },
     {
+      icon: <AiFillPieChart />,
       title: "$230k",
       count: "saving membership",
 
@@ -59,51 +63,60 @@ function Section1() {
   const boxShadow = `0 4px 10px -3px ${boxShadowColor}`;
   console.log(boxShadow);
 
-  const [selectedIndex, setSelectedIndex] = useState(2);
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
     <div className=" pl-[5rem] lg:pl-[15rem]">
       {/* header */}
       <div className="flex flex-col xl:flex-row items-start xl:justify-between gap-5 w-full ">
         <div className="text-start flex flex-col gap-2">
-          <h1 className="text-xl text-accent">
-            <span className="font-semibold">Hello,</span> Welcome back Gerald!
+          <h1 className="text-3xl">
+            <span>Hello,</span> Welcome back Gerald!
           </h1>
         </div>
         <h2 className="text-[#6c747d]">
-          Home - <span className="text-accent">Dashboard</span>
+          Home - <span className="text-[#0bb885]">Dashboard</span>
         </h2>
       </div>
 
-      <div className="hide-scrollbar flex gap-5 overflow-x-auto hide-scroll w-full p-5 px-0 mt-7  xl:grid grid-cols-4 ">
+      <div className="hide-scrollbar flex gap-5 overflow-x-auto hide-scroll w-full p-5 px-0 mt-7  xl:grid grid-cols-5 ">
         {data.map((item, index) => {
           return (
             <div
               key={index}
               onClick={() => setSelectedIndex(index)}
-              className={`  p-5 bg-primary py-10 flex flex-row items-center gap-3 text-white cursor-pointer ${
-                selectedIndex === index ? `shadow-md scale-[1.2]` : ""
-              } transition-all duration-200 ease-in-out bg-cover bg-center `}
+              className={`text-start rounded-3xl p-5 bg-primary flex flex-row items-center gap-5 text-white cursor-pointer ${
+                selectedIndex === index ? `shadow-md` : ""
+              } transition-all duration-200 ease-in-out `}
               style={{
-                backgroundImage: `url("/images/section-1/bgs/${
-                  index + 1
-                }.svg")`,
+                backgroundColor: `${
+                  selectedIndex === index ? "#0bb885" : "#1c243f"
+                }`,
               }}
             >
-              <div className="">
-                <img
-                  src={`/images/section-1/icons/${index + 1}.svg`}
-                  className="shrink-0 w-16 h-16"
-                />
+              <div
+                className="text-3xl"
+                style={{
+                  color: "#48caa3",
+                }}
+              >
+                {item.icon}
               </div>
 
               {/* c2 */}
-              <div className="text-center whitespace-nowrap text-white">
-                <div className=" mt-2 text-3xl font-semibold  whitespace-nowrap">
+              <div>
+                <div className=" mt-2 text-md font-semibold  whitespace-nowrap">
                   {item.title}
                 </div>
-                <div className="w-full flex gap-3 mt-1   items-center justify-between">
-                  <p className="text-xs uppercase text-white">{item.count}</p>
+                <div className="w-full flex gap-3 mt-1  items-center justify-between">
+                  <p
+                    className="text-md"
+                    style={{
+                      color: selectedIndex === index ? "white" : "#646c77",
+                    }}
+                  >
+                    {item.count}
+                  </p>
                 </div>
               </div>
             </div>

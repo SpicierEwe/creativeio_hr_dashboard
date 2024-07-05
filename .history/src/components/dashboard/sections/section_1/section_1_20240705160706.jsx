@@ -59,7 +59,7 @@ function Section1() {
   const boxShadow = `0 4px 10px -3px ${boxShadowColor}`;
   console.log(boxShadow);
 
-  const [selectedIndex, setSelectedIndex] = useState(2);
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
     <div className=" pl-[5rem] lg:pl-[15rem]">
@@ -75,35 +75,41 @@ function Section1() {
         </h2>
       </div>
 
-      <div className="hide-scrollbar flex gap-5 overflow-x-auto hide-scroll w-full p-5 px-0 mt-7  xl:grid grid-cols-4 ">
+      <div className="hide-scrollbar flex gap-5 overflow-x-auto hide-scroll w-full p-5 px-0 mt-7  xl:grid grid-cols-5 ">
         {data.map((item, index) => {
           return (
             <div
               key={index}
               onClick={() => setSelectedIndex(index)}
-              className={`  p-5 bg-primary py-10 flex flex-row items-center gap-3 text-white cursor-pointer ${
-                selectedIndex === index ? `shadow-md scale-[1.2]` : ""
+              className={`text-start rounded-3xl p-5 bg-primary flex flex-row items-center gap-5 text-white cursor-pointer ${
+                selectedIndex === index ? `shadow-md` : ""
               } transition-all duration-200 ease-in-out bg-cover bg-center `}
               style={{
                 backgroundImage: `url("/images/section-1/bgs/${
                   index + 1
                 }.svg")`,
+
+                backgroundSize: "cover",
               }}
             >
               <div className="">
-                <img
-                  src={`/images/section-1/icons/${index + 1}.svg`}
-                  className="shrink-0 w-16 h-16"
-                />
+                <img src={`/images/section-1/icons/${index + 1}.svg`} />
               </div>
 
               {/* c2 */}
-              <div className="text-center whitespace-nowrap text-white">
-                <div className=" mt-2 text-3xl font-semibold  whitespace-nowrap">
+              <div>
+                <div className=" mt-2 text-md font-semibold  whitespace-nowrap">
                   {item.title}
                 </div>
-                <div className="w-full flex gap-3 mt-1   items-center justify-between">
-                  <p className="text-xs uppercase text-white">{item.count}</p>
+                <div className="w-full flex gap-3 mt-1  items-center justify-between">
+                  <p
+                    className="text-md"
+                    style={{
+                      color: selectedIndex === index ? "white" : "#646c77",
+                    }}
+                  >
+                    {item.count}
+                  </p>
                 </div>
               </div>
             </div>

@@ -66,7 +66,7 @@ function Section1() {
       {/* header */}
       <div className="flex flex-col xl:flex-row items-start xl:justify-between gap-5 w-full ">
         <div className="text-start flex flex-col gap-2">
-          <h1 className="text-xl text-accent">
+          <h1 className="text-xl text-white">
             <span className="font-semibold">Hello,</span> Welcome back Gerald!
           </h1>
         </div>
@@ -98,12 +98,12 @@ function Section1() {
               </div>
 
               {/* c2 */}
-              <div className="text-center whitespace-nowrap text-white">
+              <div className="text-center whitespace-nowrap">
                 <div className=" mt-2 text-3xl font-semibold  whitespace-nowrap">
                   {item.title}
                 </div>
                 <div className="w-full flex gap-3 mt-1   items-center justify-between">
-                  <p className="text-xs uppercase text-white">{item.count}</p>
+                  <p className="text-xs uppercase">{item.count}</p>
                 </div>
               </div>
             </div>
