@@ -1,16 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineUserAdd } from "react-icons/ai";
-import {
-  BiMessageError,
-  BiSolidBell,
-  BiSolidDashboard,
-  BiWallet,
-} from "react-icons/bi";
+import { BiSolidBell, BiSolidDashboard, BiWallet } from "react-icons/bi";
 import { BsFillWalletFill, BsPersonCircle, BsWindow } from "react-icons/bs";
 import { CiLock } from "react-icons/ci";
 import { FaCalendarAlt, FaBell, FaWallet } from "react-icons/fa";
 import { FiSearch } from "react-icons/fi";
-import { GiPieChart, GiUpgrade } from "react-icons/gi";
+import { GiPieChart } from "react-icons/gi";
 import { GoHomeFill } from "react-icons/go";
 import { HiOutlineLogout } from "react-icons/hi";
 import {
@@ -26,28 +21,22 @@ import {
   IoPerson,
   IoPersonCircleSharp,
 } from "react-icons/io5";
-import { MdOutlineCardMembership } from "react-icons/md";
 import { RiArrowDropDownLine, RiBillLine } from "react-icons/ri";
-import { RxDashboard, RxPerson } from "react-icons/rx";
-import {
-  TbLayoutDashboardFilled,
-  TbMessageDots,
-  TbMessages,
-} from "react-icons/tb";
+import { TbMessageDots, TbMessages } from "react-icons/tb";
 import { Link } from "react-router-dom";
 
 const menuItems = [
   {
     id: 1,
-    icon: <RxDashboard />,
+    icon: <GoHomeFill />,
 
-    label: "Dashboard",
+    label: "Home",
     notifications: 0,
     redirect: "/",
   },
   {
     id: 2,
-    icon: <RxPerson />,
+    icon: <IoPerson />,
     label: "Account Details",
     notifications: 0,
     redirect: "/account-details",
@@ -75,22 +64,22 @@ const menuItems = [
   },
   {
     id: 6,
-    icon: <MdOutlineCardMembership />,
-    label: "Current Membership",
+    icon: <GiPieChart />,
+    label: "Reports",
     notifications: 0,
     redirect: "/Reports",
   },
   {
     id: 7,
-    icon: <GiUpgrade />,
-    label: "Upgrade",
+    icon: <BiSolidBell />,
+    label: "Notifications",
     notifications: 0,
     redirect: "/Notifications",
   },
   {
     id: 8,
-    icon: <BiMessageError />,
-    label: "Help",
+    icon: <IoIosSettings />,
+    label: "Settings",
     notifications: 0,
     redirect: "/Settings",
   },

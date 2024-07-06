@@ -20,7 +20,7 @@ function App() {
           <div className="w-[100%] pt-14">
             <Routes>
               <Route path="/" element={<DashBoard />} />
-              <Route path="/account-details" element={<AccountDetails />} />
+              <Route path="/account-etails" element={<AccountDetails />} />
             </Routes>
           </div>
         </div>

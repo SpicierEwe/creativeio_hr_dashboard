@@ -28,7 +28,6 @@ import {
 } from "react-icons/io5";
 import { MdOutlineCardMembership } from "react-icons/md";
 import { RiArrowDropDownLine, RiBillLine } from "react-icons/ri";
-import { RxDashboard, RxPerson } from "react-icons/rx";
 import {
   TbLayoutDashboardFilled,
   TbMessageDots,
@@ -39,7 +38,7 @@ import { Link } from "react-router-dom";
 const menuItems = [
   {
     id: 1,
-    icon: <RxDashboard />,
+    icon: <TbLayoutDashboardFilled />,
 
     label: "Dashboard",
     notifications: 0,
@@ -47,7 +46,7 @@ const menuItems = [
   },
   {
     id: 2,
-    icon: <RxPerson />,
+    icon: <IoPerson />,
     label: "Account Details",
     notifications: 0,
     redirect: "/account-details",

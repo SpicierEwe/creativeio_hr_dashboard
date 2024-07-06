@@ -28,7 +28,7 @@ import {
 } from "react-icons/io5";
 import { MdOutlineCardMembership } from "react-icons/md";
 import { RiArrowDropDownLine, RiBillLine } from "react-icons/ri";
-import { RxDashboard, RxPerson } from "react-icons/rx";
+import { RxPerson } from "react-icons/rx";
 import {
   TbLayoutDashboardFilled,
   TbMessageDots,

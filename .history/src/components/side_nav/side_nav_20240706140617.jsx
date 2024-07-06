@@ -1,16 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { AiOutlineUserAdd } from "react-icons/ai";
-import {
-  BiMessageError,
-  BiSolidBell,
-  BiSolidDashboard,
-  BiWallet,
-} from "react-icons/bi";
+import { BiSolidBell, BiSolidDashboard, BiWallet } from "react-icons/bi";
 import { BsFillWalletFill, BsPersonCircle, BsWindow } from "react-icons/bs";
-import { CiLock } from "react-icons/ci";
 import { FaCalendarAlt, FaBell, FaWallet } from "react-icons/fa";
 import { FiSearch } from "react-icons/fi";
-import { GiPieChart, GiUpgrade } from "react-icons/gi";
+import { GiPieChart } from "react-icons/gi";
 import { GoHomeFill } from "react-icons/go";
 import { HiOutlineLogout } from "react-icons/hi";
 import {
@@ -26,71 +19,65 @@ import {
   IoPerson,
   IoPersonCircleSharp,
 } from "react-icons/io5";
-import { MdOutlineCardMembership } from "react-icons/md";
-import { RiArrowDropDownLine, RiBillLine } from "react-icons/ri";
-import { RxDashboard, RxPerson } from "react-icons/rx";
-import {
-  TbLayoutDashboardFilled,
-  TbMessageDots,
-  TbMessages,
-} from "react-icons/tb";
+import { RiArrowDropDownLine } from "react-icons/ri";
+import { TbMessageDots, TbMessages } from "react-icons/tb";
 import { Link } from "react-router-dom";
 
 const menuItems = [
   {
     id: 1,
-    icon: <RxDashboard />,
+    icon: <GoHomeFill />,
 
-    label: "Dashboard",
+    label: "Home",
     notifications: 0,
     redirect: "/",
   },
   {
     id: 2,
-    icon: <RxPerson />,
+    icon: <IoPerson />,
     label: "Account Details",
     notifications: 0,
     redirect: "/account-details",
   },
   {
     id: 3,
-    icon: <CiLock />,
-    label: "Change Password",
+    icon: <BsWindow />,
+    label: "Apps",
     notifications: 2,
     redirect: "/Apps",
   },
   {
     id: 4,
-    icon: <AiOutlineUserAdd />,
-    label: "Add User Access",
+    icon: <FaWallet />,
+    label: "Payments",
     notifications: 0,
     redirect: "/Payments",
   },
   {
     id: 5,
-    icon: <RiBillLine />,
-    label: "Billing History",
+    icon: <TbMessages size={25} />,
+    label: "Communicate",
     notifications: 0,
     redirect: "/Communicate",
   },
   {
     id: 6,
-    icon: <MdOutlineCardMembership />,
-    label: "Current Membership",
+    icon: <GiPieChart />,
+    label: "Reports",
     notifications: 0,
     redirect: "/Reports",
   },
   {
     id: 7,
-    icon: <GiUpgrade />,
-    label: "Upgrade",
+    icon: <BiSolidBell />,
+    label: "Notifications",
     notifications: 0,
     redirect: "/Notifications",
   },
   {
     id: 8,
-    icon: <BiMessageError />,
-    label: "Help",
+    icon: <IoIosSettings />,
+    label: "Settings",
     notifications: 0,
     redirect: "/Settings",
   },
@@ -129,15 +116,15 @@ function SideNav() {
               return (
                 <Link to={item.redirect} key={item.id}>
                   <li
-                    className={`p-3 border-l-[5px]  text-[##707070] ${
-                      isSelected ? "bg-[#f3f1fa] border-accent " : ""
+                    className={`p-3  ${
+                      isSelected ? "bg-[#f3f1fa] border-l-2" : ""
                     } text-md cursor-pointer w-full transition-all duration-200 ease-in-out`}
                     onClick={() => setSelectedNavIndex(item.id)}
                   >
                     <div className="flex justify-between gap-10">
                       <div className="flex gap-4">
                         {/* item icon */}
-                        <div className={`text-2xl lg:text-xl text-[#707070]`}>
+                        <div className={`text-2xl lg:text-xl text-accent`}>
                           {item.icon}
                         </div>
 
