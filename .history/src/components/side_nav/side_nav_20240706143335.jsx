@@ -167,34 +167,22 @@ const TopNavBar = () => {
   return (
     <div className="flex justify-end xl:justify-between w-full  bg-primary fixed max-w-screen-2xl p-2 xl:py-[.7rem] py-[1.13rem] border-b-[.5px] border-[#4b5259] xl:px-10 ">
       <div className="flex justify-between w-full items-center ml-14 xl:ml-48  ">
-        {/* empty div for layout support */}
-        <div className="flex items-center gap-3 "></div>
+        <div className="flex items-center gap-3 ">
+          <div className="flex items-center gap-3 text-[#6c747d]">
+            <BsPersonCircle />
+            <p className="text-[#6c747d]">Supporters</p>
+          </div>
+          <RiArrowDropDownLine size={24} className="text-accent" />
+        </div>
 
-        {/* search #*/}
-        <label className="input input-bordered bg-[#f3f6f9] w-[40rem] h-9 flex items-center gap-2">
-          <input type="text" className="grow" placeholder="Search" />
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 16 16"
-            fill="currentColor"
-            className="h-4 w-4 opacity-70 text-[#abafb3]"
-          >
-            <path
-              fillRule="evenodd"
-              d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </label>
-
-        <div className="flex items-center">
+        <div className="flex items-center gap-x-3">
           <div className="avatar online  placeholder h-7 w-7">
             <div className="bg-neutral text-neutral-content w-16 bg-transparent rounded-full">
               <span className="text-xl">
                 <BiSolidMessage />
               </span>
             </div>
-          </div>
+          </div>{" "}
           <div className="avatar online  placeholder h-7 w-7">
             <div className="bg-neutral text-neutral-content w-16 bg-transparent rounded-full">
               <span className="text-xl">

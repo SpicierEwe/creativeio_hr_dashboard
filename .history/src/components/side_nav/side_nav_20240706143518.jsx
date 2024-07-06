@@ -167,17 +167,15 @@ const TopNavBar = () => {
   return (
     <div className="flex justify-end xl:justify-between w-full  bg-primary fixed max-w-screen-2xl p-2 xl:py-[.7rem] py-[1.13rem] border-b-[.5px] border-[#4b5259] xl:px-10 ">
       <div className="flex justify-between w-full items-center ml-14 xl:ml-48  ">
-        {/* empty div for layout support */}
+        {/* supporters */}
         <div className="flex items-center gap-3 "></div>
-
-        {/* search #*/}
-        <label className="input input-bordered bg-[#f3f6f9] w-[40rem] h-9 flex items-center gap-2">
+        <label className="input input-bordered flex items-center gap-2">
           <input type="text" className="grow" placeholder="Search" />
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 16 16"
             fill="currentColor"
-            className="h-4 w-4 opacity-70 text-[#abafb3]"
+            className="h-4 w-4 opacity-70"
           >
             <path
               fillRule="evenodd"
