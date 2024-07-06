@@ -107,7 +107,7 @@ function Section2() {
         {data.map((item) => (
           <div>
             <h2 className="text-start font-medium">{item.title}</h2>
-            <ul className="mt-5 flex flex-row xl:grid grid-cols-4  grid-auto-flow-row dense items-center flex-wrap">
+            <ul className="mt-5 flex flex-ro xl:grid grid-cols-4  grid-auto-flow-row dense items-center flex-wrap">
               {item.content.map((subItem, index) => (
                 <li key={subItem.id} className="flex items-center">
                   <img
